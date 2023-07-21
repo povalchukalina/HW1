@@ -75,5 +75,78 @@ console.log([info]);
 alert(user);*/
 
 //10
-let userName = prompt('Введите Ваше имя');
-alert(`Привет, ${userName} !`);
+/*let userName = prompt('Введите Ваше имя');
+alert(`Привет, ${userName} !`);*/
+
+
+
+
+
+//2.3 Условное ветвление
+
+//Задание 1
+/*
+let password = 'пароль';
+let a = String (prompt ('Введите пароль'));
+if (password === 'пароль') {
+    console.log ('Пароль введен верно');
+} else {
+    console.log ('Пароль введен неверно');
+} */
+
+//Задание 2
+
+/*let c = Number (prompt('Введите число'));
+if (c > '0' && c < '10') {
+    console.log ('Верно');
+} else {
+    console.log ('Неверно');
+}*/
+
+//Задание 3
+
+/*let d = Number (prompt('Введите число')) ;
+let e = Number (prompt('Введите число')) ;
+if (d > '100' || e > '100') {
+    console.log ('Верно');
+} else {
+    console.log ('Неверно');
+}*/
+
+//Задание 4
+/*let a = '2';
+let b = '3';
+// Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
+alert(a + b);*/
+
+//Задание 5
+/*let monthNumber = Number (prompt('Write number of month'));
+switch (monthNumber) {
+    case 12 :
+    case 1 :
+    case 2 :
+        console.log ('Winter');
+        break;
+    case 3 :
+    case 4 :
+    case 5 :
+        console.log ('Spring');
+        break;
+    case 6 :
+    case 7 :
+    case 8 :
+        console.log ('Summer');
+        break;
+    case 9 :
+    case 10 :
+    case 11 :
+        console.log ('Autumn');
+        break;
+    default:
+        console.log ('Incorrect')
+        break;
+}*/
+//Задание 6
+//Задание 7
+//Задание 8 
+//Задание 9
