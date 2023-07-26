@@ -21,8 +21,16 @@
         font-weight: 300;
         line-height: 22px;
     }
-    .header-btn {
-        width: 234.063px;
-        height: 48.603px;   
+    .btn {
+    display: flex;
+    justify-content: center;
+    }
+
+    .game-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .game_img {
+        height: 300px;
+        width: 343px;
     }
 }

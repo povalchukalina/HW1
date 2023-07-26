@@ -70,17 +70,22 @@ body {
 height: 300px;
 flex-shrink: 0;
 border-radius: 16px;
+
 }
 .center {
     padding-left: calc(50% - 640px);
     padding-right: calc(50% - 640px);
 }
-
-
-
-/*
 .btn:hover {
-  color: #FFFFFF;
-  background-color: #000000;
-  */
+    color: #9C0332;
+    background-color: #FFFFFF
+}|
+.game_img {
+    transition: 1s; 
+}
+.game_img:hover {
+    transform: scale(1.2);
+}
+
+
 @import 'mobile';

@@ -157,20 +157,52 @@ switch (monthNumber) {
 
 //Задание 1
 
+/*
 let a = 0;
-while (a <= 2 ) {
+while (a < 2 ) {
     console.log ('Hello');
     a++;
 }
-
+*/
 //Задание 2
-
+/*
 let b = 1;
 do {
-    console.log (b);
+    console.log(b);
+    b++;
 } while (b < 6);
+*/
 
 //Задание 3
+/*
+let b = 7;
+do {
+    console.log(b);
+    b++;
+} while (b < 23);
+*/
 //Задание 4
+/*
+const object = { Коля: 200, Вася: 300, Петя: 400 };
+
+for (const name in object) {
+    console.log(`${name}: - зарплата ${object[name]} долларов`);
+}
+*/
 //Задание 5
-//Задание 6
+/*
+for (let n = 1000, num = 0; n > 50; num++) {
+    n /= 2;
+        console.log( n );
+    }
+*/
+//Задание 6 - не доделано
+/*
+for (let n = 31 ) {
+    if () {
+        continue; 
+        }
+
+    console.log(Сегодня пятница, ...-е число. Необходимо подготовить отчет); 
+}
+*/
