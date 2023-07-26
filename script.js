@@ -87,8 +87,8 @@ alert(`Привет, ${userName} !`);*/
 //Задание 1
 /*
 let password = 'пароль';
-let a = String (prompt ('Введите пароль'));
-if (password === 'пароль') {
+let a = prompt ('Введите пароль');
+if (a === 'пароль') {
     console.log ('Пароль введен верно');
 } else {
     console.log ('Пароль введен неверно');
@@ -97,7 +97,7 @@ if (password === 'пароль') {
 //Задание 2
 
 /*let c = Number (prompt('Введите число'));
-if (c > '0' && c < '10') {
+if (c > 0 && c < 10) {
     console.log ('Верно');
 } else {
     console.log ('Неверно');
@@ -107,7 +107,7 @@ if (c > '0' && c < '10') {
 
 /*let d = Number (prompt('Введите число')) ;
 let e = Number (prompt('Введите число')) ;
-if (d > '100' || e > '100') {
+if (d > 100 || e > 100) {
     console.log ('Верно');
 } else {
     console.log ('Неверно');
@@ -117,7 +117,7 @@ if (d > '100' || e > '100') {
 /*let a = '2';
 let b = '3';
 // Код выше изменять менять нельзя, чтобы решить задачу исправьте код ниже: 
-alert(a + b);*/
+alert('a' + 'b');*/
 
 //Задание 5
 /*let monthNumber = Number (prompt('Write number of month'));
