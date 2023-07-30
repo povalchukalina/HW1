@@ -46,11 +46,11 @@ body {
   top: 482px;
   left: 120px;
   border-radius: 30px;
-  background-color: #9C0332;
+  background: #9C0332;
+  color: #FFF;
   font-size: 18px;
   font-weight: 400;
-  line-height: 22px;
-  color: #FFFFFF;
+  border: 0px;
 }
 
 .header-span {
@@ -86,6 +86,14 @@ body {
   padding-right: calc(50% - 640px);
 }
 
+.game_img {
+  transition: 1s;
+}
+
+.game_img:hover {
+  transform: scale(1.2);
+}
+
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -100,6 +108,7 @@ body {
     color: #FFF;
     text-align: center;
     font-size: 32px;
+    line-height: normal;
   }
   .header-text {
     color: #FFF;
@@ -112,6 +121,9 @@ body {
   .btn {
     display: flex;
     justify-content: center;
+  }
+  .header-btn {
+    font-size: 18px;
   }
   .game-content {
     grid-template-columns: repeat(3, 1fr);
