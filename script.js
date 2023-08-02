@@ -196,13 +196,96 @@ for (let n = 1000, num = 0; n > 50; num++) {
         console.log( n );
     }
 */
-//Задание 6 - не доделано
+//Задание 6 
 /*
-for (let n = 31 ) {
-    if () {
-        continue; 
-        }
+let firstFriday = 1;
 
-    console.log(Сегодня пятница, ...-е число. Необходимо подготовить отчет); 
+for (let i = firstFriday; i <= 31; i+= 7) {
+    console.log(`Сегодня пятница, ${i}  -е число. Необходимо подготовить отчет.`)
 }
 */
+
+
+
+//2.5 Функции 
+
+//ЗАДАНИЕ №1
+
+/*
+function min (a, b) {
+    if (a < b) {
+    return a;
+    } else {
+        return b;
+    }
+}
+*/
+//ЗАДАНИЕ №2
+/*
+function evenOrOdd(n) {
+    if(n % 2 === 0)
+    {
+        return'Even';
+    } else {
+        return'Odd';
+    }
+};
+*/
+//ЗАДАНИЕ №3.1
+/*
+function func(n) {
+	console.log(n ** 2);
+}
+*/
+//ЗАДАНИЕ №3.2
+/*
+function func(n) {
+	return n ** 2;
+}
+*/
+//ЗАДАНИЕ №4
+/*
+function age () {
+    let userAnswer = prompt ('Сколько Вам лет?')
+        if (userAnswer >= 13) {
+            console.log ('Welcome!') ;
+        }
+        if (userAnswer <= 12) {
+            console.log ('Hi, my friend!') ;
+        } else {
+            console.log ('Incorrect value') ;
+        }
+}
+*/
+//ЗАДАНИЕ №5
+/*
+function number () {
+    let a = Number(prompt(''));
+    let b = Number(prompt(''));
+    if (isNaN(a, b)) {
+        return a * b;
+    } else {
+        return "Одно или оба значения не являются числом."
+    }
+}    
+*/
+//ЗАДАНИЕ №6
+
+/*
+    function cubeNumber() {
+        const userInput = prompt("Введите число");
+        const number = Number(userInput);
+
+        if (isNaN(number)) {
+        return "Переданный параметр не является числом";
+        }
+        const cube = Math.pow(number, 3);
+        return `${number} в кубе равняется ${cube}`;
+}
+
+for (let i = 0; i <= 10; i++) {
+        console.log(cubeNumber(i));
+}
+*/
+//ЗАДАНИЕ №7
+/*не разобралась*/
