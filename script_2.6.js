@@ -111,5 +111,4 @@ function filterPositive(array) {
     return negatives;
 }
 console.log (filterPositive(myArray));
-
 */
