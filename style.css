@@ -76,7 +76,6 @@ body {
 .game-content {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
   padding-left: 120px;
   padding-right: 120px;
   justify-content: space-around;
@@ -112,6 +111,13 @@ body {
   background-size: cover;
 }
 
+.seasons_content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
 .seasons_title {
   font-size: 48px;
   font-style: normal;
@@ -143,6 +149,12 @@ body {
   border: 0px;
 }
 
+.game_2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
 /*.btn {
     transition: 1s;
 }
@@ -166,6 +178,13 @@ body {
   background-size: cover;
 }
 
+.words_content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
 .words_title {
   color: #FFF;
   font-size: 48px;
@@ -181,6 +200,9 @@ body {
   font-style: normal;
   font-weight: 300;
   line-height: 32px;
+  max-width: 588px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .words_btn {
@@ -202,6 +224,11 @@ body {
   transform: scale(1.1);
 }
 
+/*.game_3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+}*/
 @media (max-width: 767px) {
   .center {
     padding-left: 16px;
@@ -235,10 +262,14 @@ body {
   }
   .game-content {
     grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
   }
   .game_img {
     height: 300px;
     width: 343px;
+  }
+  .seasons {
+    height: 654px;
   }
   .seasons_title {
     display: flex;
@@ -282,7 +313,7 @@ body {
     text-align: center;
     font-size: 32px;
     line-height: normal;
-    padding-top: 179px;
+    padding-top: 136px;
   }
   .words_text {
     text-align: center;

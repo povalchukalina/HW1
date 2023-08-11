@@ -98,10 +98,34 @@ let minute = currentDate.getMinutes();
 let second = currentDate.getSeconds();
 
     if (minute < 10) {     
-	minute = "0" + minute; 
+    minute = "0" + minute; 
 }
     if (second < 10) { 
-	second = "0" + second; 
+    second = "0" + second; 
 }
 console.log(fullDate +   hour + ":" + minute + ":" + second);
 */
+//Задание №11
+function getWord() {
+    let list = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+    list = list.sort(() => Math.random() - 0.5);
+
+    alert(list);
+
+    let UserAnswer1 = prompt('Чему равнялся первый элемент массива?');
+    let UserAnswer2 = prompt('Чему равнялся последний элемент массива?');
+
+    if (UserAnswer1 === list[0]) {
+        if (UserAnswer2 === list[6]) {
+            alert('Поздравляю, вы угадали оба элемента!');
+        } else {
+            alert('Вы были близки к победе!')
+        }
+    } else {
+    if (UserAnswer2 === list[6]) {
+        alert('Вы были близки к победе!');
+    } else {
+        alert('Вы не угадали!');
+    }
+}
+}

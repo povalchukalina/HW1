@@ -31,10 +31,14 @@
     }
     .game-content {
         grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
     }
     .game_img {
         height: 300px;
         width: 343px;
+    }
+    .seasons {
+        height: 654px;
     }
     .seasons_title {
         display: flex;
@@ -68,6 +72,7 @@
         width: 344px;
         height: 236px;
     }
+
     .words_title {
         display: flex;
         width: 343px;
@@ -78,7 +83,7 @@
         text-align: center;
         font-size: 32px;
         line-height: normal;
-        padding-top: 179px;
+        padding-top: 136px;
     }
     .words_text {
         text-align: center;

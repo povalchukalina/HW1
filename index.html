@@ -31,37 +31,42 @@
     <section class="main-content">
         <div class="game-content">
             <a href="#anchor"><img src="./image/game1.jpg" alt="game" class="game_img game_1"></a>
-            <a href=""><img src="./image/game2.jpg" alt="game" class="game_img game_2"></a>
+            <a href="#2anchor"><img src="./image/game2.jpg" alt="game" class="game_img game_2"></a>
             <a href=""><img src="./image/game3.jpg" alt="game" class="game_img game_3"></a>
         </div>
         <div class="seasons center">
-            <h1 class="seasons_title">Времена года!</h1>
-            <p class="seasons_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
-                времени года он относится</p>
-            <div class="btn_2">
-                <button class="seasons_btn">Играть!</button>
-            </div>
-            <div class="game_2">
-                <a id="anchor"><img src="./image/seasons.png" alt="game" class="seasons_img"></a>
+            <div class="seasons_content">
+                <div class="seasons_information">
+                    <h1 class="seasons_title">Времена года!</h1>
+                    <p class="seasons_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится.</p>
+                    <div class="btn_2">
+                        <button onclick="getWord();" class="seasons_btn" type="button">Играть!</button>
+                    </div>
+                </div>
+                <div class="game_2">
+                    <a id="anchor"><img src="./image/seasons.png" alt="game" class="seasons_img"></a>
+                </div>
             </div>
         </div>
-
-
-
         <div class="words center">
-            <div class="game_3">
-                <a id="anchor"><img src="./image/words.png" alt="game" class="words_img"></a>
-            </div>
-            <h1 class="words_title">Запомни слова</h1>
-            <p class="words_text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
-            <div class="btn_3">
-                <button class="words_btn">Играть!</button>
+            <div class="words_content">
+                <div class="words_information">
+                    <h1 class="words_title">Запомни слова</h1>
+                    <p class="words_text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+                        необходимо
+                        запомнить.</p>
+                    <div class="btn_3">
+                        <button onclick="getWord();" class="words_btn">Играть!</button>
+                    </div>
+                </div>
+                <div class="game_3">
+                    <a id="2anchor"><img src="./image/words.png" alt="game" class="words_img"></a>
+                </div>
             </div>
         </div>
     </section>
     </div>
-
-    <script src="script.js"></script>
+    <script src="script_2.7.js"></script>
 </body>
 
 </html>
