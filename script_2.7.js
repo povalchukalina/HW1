@@ -87,15 +87,7 @@ const days = ["Воскресенье", "Понедельник", "Вторни�
 const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
 "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
 
-let currentDate = new Date(); 
-let fullDate = "Сегодня: " + currentDate.getDate() + 
-" " + months[currentDate.getMonth()] + 
-" " + currentDate.getFullYear() + 
-", " + days[currentDate.getDay()];
 
-let hour = currentDate.getHours(); 
-let minute = currentDate.getMinutes(); 
-let second = currentDate.getSeconds();
 
     if (minute < 10) {     
     minute = "0" + minute; 
