@@ -1,0 +1,108 @@
+@media (max-width: 767px) {
+    .center {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header-title {
+        display: flex;
+        width: 343px;
+        height: 77.436px;
+        flex-direction: column;
+        justify-content: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        line-height: normal;
+    }
+    .header-text {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    .btn {
+    display: flex;
+    justify-content: center;
+    }
+    .header-btn {
+        font-size: 18px;
+    }
+    .game-content {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 32px;
+    }
+    .game_img {
+        height: 300px;
+        width: 343px;
+    }
+    .seasons {
+        height: 654px;
+    }
+    .seasons_title {
+        display: flex;
+        width: 343px;
+        height: 77.436px;
+        flex-direction: column;
+        justify-content: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        line-height: normal;
+        padding-top: 179px;
+    }
+    .seasons_text {
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    .btn_2 {
+    display: flex;
+    justify-content: center;    
+    padding-bottom: 64px;
+    }
+    .game_2 {
+        display: block;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .seasons_img {
+        width: 344px;
+        height: 236px;
+    }
+
+    .words_title {
+        display: flex;
+        width: 343px;
+        height: 77.436px;
+        flex-direction: column;
+        justify-content: center;
+        color: #FFF;
+        text-align: center;
+        font-size: 32px;
+        line-height: normal;
+        padding-top: 136px;
+    }
+    .words_text {
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 22px;
+    }
+    .btn_3 {
+        display: flex;
+        justify-content: center;    
+        padding-bottom: 64px;
+    }
+    .game_3 {
+        display: block;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .words_img {
+        width: 344px;
+        height: 236px;
+    }
+}

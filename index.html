@@ -1,12 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Homework1</title>
+    <link rel='stylesheet' href='style.css'>
 </head>
+
 <body>
-    
+    <div class="top">
+        <header class="header">
+        </header>
+        <section class="header-content center">
+            <h1 class="header-title">Добро пожаловать <br> на мой сайт!</h1>
+            <p class="header-text">Вам предстоит пройти несколько увлекательных игр. Если готов нажимай <span
+                    class="header-span">поехали</span> и <span class="header-span">приступай</span></p>
+            <div class="btn">
+                <button class="header-btn" href="index.html">Поехали!</button>
+            </div>
+        </section>
+    </div>
+    <section class="main-content">
+        <div class="game-content">
+            <a href="#anchor"><img src="./image/game1.jpg" alt="game" class="game_img game_1"></a>
+            <a href="#2anchor"><img src="./image/game2.jpg" alt="game" class="game_img game_2"></a>
+            <a href=""><img src="./image/game3.jpg" alt="game" class="game_img game_3"></a>
+        </div>
+        <div class="seasons center">
+            <div class="seasons_content">
+                <div class="seasons_information">
+                    <h1 class="seasons_title">Времена года!</h1>
+                    <p class="seasons_text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится.</p>
+                    <div class="btn_2">
+                        <button onclick="getWord();" class="seasons_btn" type="button">Играть!</button>
+                    </div>
+                </div>
+                <div class="game_2">
+                    <a id="anchor"><img src="./image/seasons.png" alt="game" class="seasons_img"></a>
+                </div>
+            </div>
+        </div>
+        <div class="words center">
+            <div class="words_content">
+                <div class="words_information">
+                    <h1 class="words_title">Запомни слова</h1>
+                    <p class="words_text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам
+                        необходимо
+                        запомнить.</p>
+                    <div class="btn_3">
+                        <button onclick="getWord();" class="words_btn">Играть!</button>
+                    </div>
+                </div>
+                <div class="game_3">
+                    <a id="2anchor"><img src="./image/words.png" alt="game" class="words_img"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
